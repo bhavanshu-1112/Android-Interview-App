@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/billiard-balls-uhd-8k-wallpaper">
+
+    <Button
+        android:id="@+id/brate"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/USA_California_San_Francisco_Golden_Gate_Bridge_beaches_timelapse_ocean_sea_bay_architecture_bridges_sunset_sunrise_landscapes_1920x1080"
+        android:text="@string/rate1"
+        android:textColor="#ffffff"
+
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="531dp" />
+
+    <Button
+        android:id="@+id/bsq"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/USA_California_San_Francisco_Golden_Gate_Bridge_beaches_timelapse_ocean_sea_bay_architecture_bridges_sunset_sunrise_landscapes_1920x1080"
+
+        android:text="@string/sq"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <Button
+        android:id="@+id/btq"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/USA_California_San_Francisco_Golden_Gate_Bridge_beaches_timelapse_ocean_sea_bay_architecture_bridges_sunset_sunrise_landscapes_1920x1080"
+
+        android:text="@string/tq"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <Button
+        android:id="@+id/bsa"
+
+
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/USA_California_San_Francisco_Golden_Gate_Bridge_beaches_timelapse_ocean_sea_bay_architecture_bridges_sunset_sunrise_landscapes_1920x1080"
+        android:text="@string/sa"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="398dp" />
+
+</android.support.constraint.ConstraintLayout>

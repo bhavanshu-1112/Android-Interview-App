@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:drawable="@drawable/USA_California_San_Francisco_Golden_Gate_Bridge_beaches_timelapse_ocean_sea_bay_architecture_bridges_sunset_sunrise_landscapes_1920x1080"  android:state_active="true"/>
+    <item android:drawable = "@drawable/xNiJJHl0WP4" android:state_pressed="true"/>
+
+
+</selector>
